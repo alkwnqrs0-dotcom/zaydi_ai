@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.secret_key = "zaydi_secure_secret_key_change_this"
 
 # مفتاح الـ API المعتمد
-GEMINI_API_KEY = "AQ.Ab8RN6LJf4vFI3bexQwBH1NPUqGcEpmN18tEW6s98d6Wm5uZGQ"
+GEMINI_API_KEY = ""
 genai.configure(api_key=GEMINI_API_KEY)
 
 # إعداد قاعدة البيانات المحلية SQLite لتخزين المحادثات
